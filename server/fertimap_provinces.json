@@ -1,0 +1,230 @@
+{
+  "11": {
+    "region": "Souss-Massa",
+    "province": "Agadir-Ida -Ou-Tanane"
+  },
+  "19": {
+    "region": "Drâa-Tafilalet",
+    "province": "Zagora"
+  },
+  "20": {
+    "region": "Rabat-Salé-Kénitra",
+    "province": "Kénitra"
+  },
+  "21": {
+    "region": "Rabat-Salé-Kénitra",
+    "province": "Sidi Kacem"
+  },
+  "22": {
+    "region": "Rabat-Salé-Kénitra",
+    "province": "Sidi Slimane"
+  },
+  "23": {
+    "region": "Grand Casablanca-Settat",
+    "province": "Benslimane"
+  },
+  "24": {
+    "region": "Grand Casablanca-Settat",
+    "province": "Berrechid"
+  },
+  "25": {
+    "region": "Béni Mellal-Khénifra",
+    "province": "Khouribga"
+  },
+  "26": {
+    "region": "Grand Casablanca-Settat",
+    "province": "Settat"
+  },
+  "27": {
+    "region": "Marrakech-Safi",
+    "province": "Al  Haouz"
+  },
+  "28": {
+    "region": "Marrakech-Safi",
+    "province": "Chichaoua"
+  },
+  "29": {
+    "region": "Marrakech-Safi",
+    "province": "El Kelâa des  Sraghna"
+  },
+  "30": {
+    "region": "Marrakech-Safi",
+    "province": "Essaouira"
+  },
+  "31": {
+    "region": "Marrakech-Safi",
+    "province": "Marrakech"
+  },
+  "32": {
+    "region": "Marrakech-Safi",
+    "province": "Rehamna"
+  },
+  "33": {
+    "region": "Oriental",
+    "province": "Berkane"
+  },
+  "34": {
+    "region": "Oriental",
+    "province": "Driouch"
+  },
+  "36": {
+    "region": "Oriental",
+    "province": "Jerada"
+  },
+  "37": {
+    "region": "Oriental",
+    "province": "Nador"
+  },
+  "38": {
+    "region": "Oriental",
+    "province": "Oujda-Angad"
+  },
+  "39": {
+    "region": "Oriental",
+    "province": "Taourirt"
+  },
+  "40": {
+    "region": "Grand Casablanca-Settat",
+    "province": "Casablanca"
+  },
+  "41": {
+    "region": "Grand Casablanca-Settat",
+    "province": "Médiouna"
+  },
+  "42": {
+    "region": "Grand Casablanca-Settat",
+    "province": "Mohammadia"
+  },
+  "43": {
+    "region": "Grand Casablanca-Settat",
+    "province": "Nouaceur"
+  },
+  "44": {
+    "region": "Rabat-Salé-Kénitra",
+    "province": "Khémisset"
+  },
+  "45": {
+    "region": "Rabat-Salé-Kénitra",
+    "province": "Rabat"
+  },
+  "46": {
+    "region": "Rabat-Salé-Kénitra",
+    "province": "Salé"
+  },
+  "47": {
+    "region": "Rabat-Salé-Kénitra",
+    "province": "Skhirate- Témara"
+  },
+  "48": {
+    "region": "Grand Casablanca-Settat",
+    "province": "El Jadida"
+  },
+  "49": {
+    "region": "Marrakech-Safi",
+    "province": "Safi"
+  },
+  "50": {
+    "region": "Grand Casablanca-Settat",
+    "province": "Sidi Bennour"
+  },
+  "51": {
+    "region": "Marrakech-Safi",
+    "province": "Youssoufia"
+  },
+  "52": {
+    "region": "Béni Mellal-Khénifra",
+    "province": "Azilal"
+  },
+  "53": {
+    "region": "Béni Mellal-Khénifra",
+    "province": "Béni Mellal"
+  },
+  "54": {
+    "region": "Béni Mellal-Khénifra",
+    "province": "Fquih Ben Salah"
+  },
+  "55": {
+    "region": "Fès-Meknès",
+    "province": "Meknès"
+  },
+  "56": {
+    "region": "Fès-Meknès",
+    "province": "El  Hajeb"
+  },
+  "57": {
+    "region": "Drâa-Tafilalet",
+    "province": "Errachidia"
+  },
+  "58": {
+    "region": "Fès-Meknès",
+    "province": "Ifrane"
+  },
+  "59": {
+    "region": "Béni Mellal-Khénifra",
+    "province": "Khénifra"
+  },
+  "60": {
+    "region": "Drâa-Tafilalet",
+    "province": "Midelt"
+  },
+  "61": {
+    "region": "Fès-Meknès",
+    "province": "Boulemane"
+  },
+  "62": {
+    "region": "Fès-Meknès",
+    "province": "Fès"
+  },
+  "63": {
+    "region": "Fès-Meknès",
+    "province": "Sefrou"
+  },
+  "64": {
+    "region": "Fès-Meknès",
+    "province": "Moulay Yacoub"
+  },
+  "65": {
+    "region": "Tanger-Tetouan-Al Hoceima",
+    "province": "Al Hoceima"
+  },
+  "66": {
+    "region": "Oriental",
+    "province": "Guercif"
+  },
+  "67": {
+    "region": "Fès-Meknès",
+    "province": "Taounate"
+  },
+  "68": {
+    "region": "Fès-Meknès",
+    "province": "Taza"
+  },
+  "69": {
+    "region": "Tanger-Tetouan-Al Hoceima",
+    "province": "Chefchaouen"
+  },
+  "70": {
+    "region": "Tanger-Tetouan-Al Hoceima",
+    "province": "Fahs-Anjra"
+  },
+  "71": {
+    "region": "Tanger-Tetouan-Al Hoceima",
+    "province": "Larache"
+  },
+  "72": {
+    "region": "Tanger-Tetouan-Al Hoceima",
+    "province": "Ouezzane"
+  },
+  "73": {
+    "region": "Tanger-Tetouan-Al Hoceima",
+    "province": "Tanger-Assilah"
+  },
+  "74": {
+    "region": "Tanger-Tetouan-Al Hoceima",
+    "province": "Tétouan"
+  },
+  "75": {
+    "region": "Tanger-Tetouan-Al Hoceima",
+    "province": "M\\'Diq-Fnideq"
+  }
+}

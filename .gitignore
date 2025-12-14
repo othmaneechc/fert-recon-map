@@ -6,7 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
+*.csv
 node_modules
 dist
 dist-ssr
@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+__pycache__/
+*.pyc
+
+# large data / secrets
+public/data/fertimap_grid.csv
+gee_key.json

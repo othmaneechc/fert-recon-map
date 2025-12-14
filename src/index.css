@@ -3,8 +3,8 @@
     'Helvetica Neue', sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  color: #e9f1ff;
-  background: radial-gradient(circle at top, #08203e, #020510 65%);
+  color: #252133;
+  background: #f6f7fb;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -18,7 +18,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background: radial-gradient(circle at top, #08203e, #020510 65%);
+  background: #f6f7fb;
   display: flex;
   align-items: stretch;
   justify-content: center;

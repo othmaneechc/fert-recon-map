@@ -1,16 +1,29 @@
-# React + Vite
+# Fert Recon
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + Vite + Leaflet frontend and FastAPI backend for Morocco fertilizer recommendations and EE-powered maps.
 
-Currently, two official plugins are available:
+## Frontend
+```bash
+npm install
+npm run dev           # localhost:5173
+```
+Set `VITE_API_BASE` to point at your backend in prod (defaults to `/api` locally).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Backend
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r server/requirements.txt
+uvicorn server.main:app --host 0.0.0.0 --port 8000
+```
+Provide EE creds via `GOOGLE_APPLICATION_CREDENTIALS` (or upload through `/api/auth/service-account` in the UI). Ensure `public/data/fertimap_grid.csv` and `server/fertimap_rf_models.joblib` are present; retrain surrogates with:
+```bash
+python - <<'PY'
+from server.fertimap_service import train_local_models
+train_local_models()
+PY
+```
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Deploy hints
+- Frontend: build `npm run build` (output `dist`), serve statically; set `VITE_API_BASE=https://your-backend`.
+- Backend: deploy `uvicorn server.main:app` (Railway/Fly/Render/etc.), install `server/requirements.txt`, keep model/data files accessible, add EE auth env vars.
